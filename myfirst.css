@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  /* list-style: none; */
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/Images/wallhaven-wq818x.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 1700px;
+}
+#abc {
+  margin-left: 15px;
+}
+#abc2 {
+  margin-left: 25px;
+}
+nav {
+  background: linear-gradient(45deg, #109b90, green);
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: linear-gradient(#f70539, black);
+  transition: 0.5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+h1 {
+  position: relative;
+  top: 30px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 30px;
+  color: green;
+  box-shadow: 5px 5px 5px 4px;
+  width: 16%;
+}
+
+main p {
+  position: relative;
+  top: 50px;
+  color: #eeee0b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  position: relative;
+  top: 65px;
+}
+
+section article h2 {
+  position: relative;
+  top: 80px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 30px;
+  color: green;
+  box-shadow: 5px 4px 3px 4px;
+  width: 30.5%;
+}
+
+section article p {
+  position: relative;
+  top: 100px;
+  color: #eeee0b;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section article ol {
+  list-style-type: upper-roman;
+  position: relative;
+  color: #eeee0b;
+  top: 100px;
+  padding: 10px;
+}
+
+section article p2 {
+  position: relative;
+  color: #eeee0b;
+  top: 110px;
+}
+
+section article aside {
+  top: 30px;
+  width: 45%;
+  color: #eeee0b;
+  height: 80px;
+  /* display: flex; */
+  box-shadow: inset 5px 7px 10px 10px;
+  margin: 5.5rem;
+  float: right;
+  position: relative;
+  font-style: italic;
+  color: black;
+}
+
+aside > p {
+  position: absolute;
+  top: 10px;
+  right: -15%;
+  margin: -4rem;
+}
+
+aside > p4 {
+  position: absolute;
+  top: 150%;
+  font-size: 20px;
+  color: #eeee0b;
+  right: 15%;
+  margin: -4rem;
+  font-style: italic;
+}
+
+section hr {
+  position: relative;
+  top: 220px;
+  margin: -1.5rem;
+}
+
+.myfav {
+  position: relative;
+  top: 280px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 25px;
+  color: green;
+  box-shadow: 5px 5px 5px 4px;
+  width: 35%;
+}
+
+#noblesse {
+  position: relative;
+  top: 320px;
+  font-family: "lucida Handwriting", cursive;
+  font-size: 25px;
+  color: #eeee0b;
+}
+.imgsize {
+  position: relative;
+  top: 20px;
+  width: 600px;
+  height: 300px;
+}
+
+#dbs {
+  position: relative;
+  top: 350px;
+  font-family: "lucida Handwriting", cursive;
+  font-size: 25px;
+  color: #eeee0b;
+}
+.imgsize2 {
+  position: relative;
+  top: 15px;
+  width: 600px;
+  height: 300px;
+}
+
+#ds {
+  position: relative;
+  top: 380px;
+  font-family: "lucida Handwriting", cursive;
+  font-size: 25px;
+  color: #eeee0b;
+}
+.imgsize3 {
+  position: relative;
+  top: 15px;
+  width: 600px;
+  height: 300px;
+}
+
+#pokemon {
+  position: relative;
+  top: 400px;
+  font-family: "lucida Handwriting", cursive;
+  font-size: 25px;
+  color: #eeee0b;
+}
+.imgsize4 {
+  position: relative;
+  top: 15px;
+  width: 600px;
+  height: 300px;
+}
+.linkhead {
+  position: relative;
+  top: 450px;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 25px;
+  color: green;
+  box-shadow: 5px 5px 5px 4px;
+  width: 18%;
+}
+
+#linka1 {
+  position: relative;
+  top: 470px;
+  font-size: 17px;
+  padding: 3px 19px;
+  border-radius: 15px;
+  color: #eeee0b;
+}
+#linka1.active,
+#linka1:hover {
+  background: #a10c0c;
+  transition: 0.5s;
+}
+
+#linka2 {
+  position: relative;
+  margin-left: -5rem;
+  top: 500px;
+  padding: 3px 12px;
+  font-size: 17px;
+  border-radius: 8px;
+  color: #eeee0b;
+}
+#linka2.active,
+#linka2:hover {
+  background: #04209e;
+  transition: 0.5s;
+}
+
+#linka3 {
+  position: relative;
+  margin-left: -8.4rem;
+  top: 530px;
+  font-size: 17px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  color: #eeee0b;
+}
+#linka3.active,
+#linka3:hover {
+  background: #5d1b63;
+  transition: 0.5s;
+}
+
+#linka4 {
+  position: relative;
+  margin-left: -6.3rem;
+  top: 560px;
+  padding: 3px 12px;
+  font-size: 17px;
+  border-radius: 8px;
+  color: #eeee0b;
+}
+#linka4.active,
+#linka4:hover {
+  background: #037409;
+  transition: 0.5s;
+}
+
+#footnav {
+  position: relative;
+  background: linear-gradient(45deg, #109b90, green);
+  height: 80px;
+  width: 100%;
+  bottom: -650px;
+}
